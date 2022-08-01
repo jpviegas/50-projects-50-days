@@ -1,0 +1,11 @@
+header {
+  background-color: whitesmoke;
+  border-bottom: solid black;
+  width: 100vw;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
