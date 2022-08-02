@@ -4,6 +4,7 @@
 
 .app {
   align-items: center;
+  background-color: ghostwhite;
   display: flex;
   flex-direction: column;
   height: 100vh;
