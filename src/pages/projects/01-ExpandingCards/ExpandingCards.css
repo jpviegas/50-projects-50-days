@@ -1,15 +1,14 @@
-body {
-  align-items: center;
+.expanding {
   display: flex;
-  height: 100vh;
-  justify-content: center;
-  margin: 0;
   overflow: hidden;
+  width: 100vw;
 }
 
-.container {
+.title {
+  align-items: center;
   display: flex;
-  width: 90vw;
+  justify-content: space-between;
+  padding: 0 5vw;
 }
 
 .panel {
@@ -21,7 +20,7 @@ body {
   color: white;
   cursor: pointer;
   flex: 0.5;
-  height: 80vh;
+  height: 70vh;
   margin: 10px;
   position: relative;
   transition: flex 0.7s ease-in;
@@ -47,8 +46,13 @@ body {
 }
 
 @media only screen and (max-width: 580px) {
-  .container {
+  .expanding-container {
+    height: 90vh;
     width: 100vw;
+  }
+
+  .title {
+    flex-direction: column;
   }
 
   .panel:nth-of-type(4),

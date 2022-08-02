@@ -5,6 +5,7 @@ import Header from "./components/layout/header/Header";
 import Home from "./pages/home/Home";
 import NotFound from "./pages/notfound/NotFound";
 import ExpandingCards from "./pages/projects/01-ExpandingCards/ExpandingCards";
+import ProgressSteps from "./pages/projects/02-ProgressSteps/ProgressSteps";
 import Projects from "./pages/projects/Projects";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="projects" element={<Projects />} />
         <Route path="projects/expanding" element={<ExpandingCards />} />
+        <Route path="projects/progress" element={<ProgressSteps />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

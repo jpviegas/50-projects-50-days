@@ -1,3 +1,5 @@
+@import "https://fonts.googleapis.com/css?family=Muli&display=swap";
+
 * {
   box-sizing: border-box;
 }
@@ -7,6 +9,7 @@
   background-color: ghostwhite;
   display: flex;
   flex-direction: column;
+  font-family: Muli, sans-serif;
   height: 100vh;
   justify-content: space-between;
   width: 100vw;

@@ -1,0 +1,10 @@
+button {
+  background-color: var(--line-border-empty);
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+}
