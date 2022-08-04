@@ -20,7 +20,7 @@ function ExpandingCards() {
 
   return (
     <main className="expanding-container">
-      <div className="title">
+      <div className="expanding-title">
         <h1>Click to expand the card</h1>
         <Backbutton />
       </div>

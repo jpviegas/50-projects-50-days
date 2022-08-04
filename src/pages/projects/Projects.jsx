@@ -13,6 +13,9 @@ function Projects() {
           <li>
             <Link to="progress">Go to progress steps</Link>
           </li>
+          <li>
+            <Link to="rotating">Go to rotating navigation</Link>
+          </li>
         </ol>
       </section>
     </main>

@@ -4,8 +4,8 @@ import "./Backbutton.css";
 function Backbutton() {
   const navigate = useNavigate();
   return (
-    <button type="button" onClick={() => navigate(-1)}>
-      go back
+    <button type="button" className="back-btn" onClick={() => navigate(-1)}>
+      back to projects
     </button>
   );
 }

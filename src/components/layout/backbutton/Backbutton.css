@@ -1,10 +1,8 @@
-button {
+.back-btn {
   background-color: var(--line-border-empty);
-  border: none;
+  border: var(--line-border-fill);
   border-radius: 6px;
+  border-style: solid;
   margin-bottom: 1em;
-}
-
-button:hover {
-  cursor: pointer;
+  padding: 0.4em;
 }

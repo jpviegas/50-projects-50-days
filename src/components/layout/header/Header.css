@@ -4,7 +4,7 @@ header {
   width: 100vw;
 }
 
-ul {
+header nav ul {
   display: flex;
   justify-content: space-around;
   list-style: none;

@@ -1,4 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Muli&display=swap";
+@import "https://fonts.googleapis.com/css?family=Lato&display=swap";
+
+:root {
+  --line-border-fill: #3498db;
+  --line-border-empty: #e0e0e0;
+}
 
 * {
   box-sizing: border-box;
@@ -17,4 +23,8 @@
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }

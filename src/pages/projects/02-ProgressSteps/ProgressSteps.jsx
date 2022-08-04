@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Backbutton from "../../../components/layout/backbutton/Backbutton";
 import "./ProgressSteps.css";
 
 function ProgressSteps() {
@@ -52,6 +53,10 @@ function ProgressSteps() {
 
   return (
     <main className="progress-container">
+      <div className="progress-title">
+        <Backbutton />
+        <h1>Go to next/previous step</h1>
+      </div>
       <div className="progress-steps">
         <div className="progress" id="progress" />
         <div className="circle active">1</div>
