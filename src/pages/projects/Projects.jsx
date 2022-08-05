@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./Project.css";
 
 function Projects() {
+  document.title = "Projects";
   return (
     <main>
       <section>
@@ -15,6 +16,9 @@ function Projects() {
           </li>
           <li>
             <Link to="rotating">Go to rotating navigation</Link>
+          </li>
+          <li>
+            <Link to="hidden">Go to hidden search widget</Link>
           </li>
         </ol>
       </section>

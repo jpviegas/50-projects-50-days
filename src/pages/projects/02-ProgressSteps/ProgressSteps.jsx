@@ -3,6 +3,7 @@ import Backbutton from "../../../components/layout/backbutton/Backbutton";
 import "./ProgressSteps.css";
 
 function ProgressSteps() {
+  document.title = "Progress Steps";
   useEffect(() => {
     const progress = document.getElementById("progress");
     const prev = document.getElementById("prev");
