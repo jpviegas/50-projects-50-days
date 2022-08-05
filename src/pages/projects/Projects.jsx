@@ -3,6 +3,7 @@ import "./Project.css";
 
 function Projects() {
   document.title = "Projects";
+
   return (
     <main>
       <section>
