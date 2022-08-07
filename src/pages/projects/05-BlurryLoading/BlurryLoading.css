@@ -1,0 +1,25 @@
+.blurry-loading {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Ubuntu, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.blurry-bg {
+  background: url("https://picsum.photos/600") no-repeat center center/cover;
+  display: flex;
+  filter: blur(0);
+  height: 100%;
+  width: 100%;
+}
+
+.blurry-loading-text {
+  color: #000;
+  font-size: 50px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+}

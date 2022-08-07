@@ -8,6 +8,7 @@ import ExpandingCards from "./pages/projects/01-ExpandingCards/ExpandingCards";
 import ProgressSteps from "./pages/projects/02-ProgressSteps/ProgressSteps";
 import RotatingNavigation from "./pages/projects/03-RotatingNavigation/RotatingNavigation";
 import HiddenSearch from "./pages/projects/04-HiddenSearch/HiddenSearch";
+import BlurryLoading from "./pages/projects/05-BlurryLoading/BlurryLoading";
 import Projects from "./pages/projects/Projects";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="projects/progress" element={<ProgressSteps />} />
         <Route path="projects/rotating" element={<RotatingNavigation />} />
         <Route path="projects/hidden" element={<HiddenSearch />} />
+        <Route path="projects/blurry" element={<BlurryLoading />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

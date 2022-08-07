@@ -21,6 +21,9 @@ function Projects() {
           <li>
             <Link to="hidden">Go to hidden search widget</Link>
           </li>
+          <li>
+            <Link to="blurry">Go to blurry loading</Link>
+          </li>
         </ol>
       </section>
     </main>
