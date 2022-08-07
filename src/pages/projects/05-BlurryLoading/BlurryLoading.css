@@ -9,9 +9,11 @@
 }
 
 .blurry-bg {
+  align-items: center;
   background: url("https://picsum.photos/600") no-repeat center center/cover;
   display: flex;
   filter: blur(0);
+  flex-direction: column;
   height: 100%;
   width: 100%;
 }

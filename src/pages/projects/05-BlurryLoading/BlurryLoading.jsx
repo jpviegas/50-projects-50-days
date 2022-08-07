@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import Backbutton from "../../../components/layout/backbutton/Backbutton";
 import "./BlurryLoading.css";
 
 function BlurryLoading() {
@@ -23,7 +24,9 @@ function BlurryLoading() {
 
   return (
     <main className="blurry-loading">
-      <section className="blurry-bg" ref={blurryBg} />
+      <section className="blurry-bg" ref={blurryBg}>
+        <Backbutton />
+      </section>
       <div className="blurry-loading-text" ref={loadingText}>
         0%
       </div>

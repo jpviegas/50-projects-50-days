@@ -24,6 +24,9 @@ function Projects() {
           <li>
             <Link to="blurry">Go to blurry loading</Link>
           </li>
+          <li>
+            <Link to="scroll">Go to scroll animation</Link>
+          </li>
         </ol>
       </section>
     </main>

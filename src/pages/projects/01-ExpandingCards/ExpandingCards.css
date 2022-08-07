@@ -1,6 +1,5 @@
 .expanding {
   display: flex;
-  overflow: hidden;
   width: 100vw;
 }
 

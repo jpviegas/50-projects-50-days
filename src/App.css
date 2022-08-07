@@ -19,6 +19,7 @@
   font-family: Muli, sans-serif;
   height: 100vh;
   justify-content: space-between;
+  overflow: hidden;
   width: 100vw;
 }
 

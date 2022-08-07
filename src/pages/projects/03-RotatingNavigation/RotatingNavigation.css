@@ -3,13 +3,13 @@
   color: #222;
   font-family: Lato, sans-serif;
   overflow-x: hidden;
-  width: 100%;
+  width: 100vw;
 }
 
 .rotating-container {
   background-color: #fafafa;
   min-height: 100vh;
-  padding: 50px;
+  padding: 1% 20%;
   transform-origin: top left;
   transition: transform 0.5s linear;
   width: 100vw;
@@ -104,25 +104,25 @@
   margin-right: 10px;
 }
 
-.content img {
+.rotating-content img {
   max-width: 100%;
 }
 
-.content {
+.rotating-content {
   margin: 50px auto;
   max-width: 1000px;
 }
 
-.content h1 {
+.rotating-content h1 {
   margin: 0;
 }
 
-.content small {
+.rotating-content small {
   color: #555;
   font-style: italic;
 }
 
-.content p {
+.rotating-content p {
   color: #333;
   line-height: 1.5;
 }
