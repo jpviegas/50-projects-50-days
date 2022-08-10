@@ -25,7 +25,10 @@ function Projects() {
             <Link to="blurry">Go to blurry loading</Link>
           </li>
           <li>
-            <Link to="scroll">Go to scroll animation</Link>
+            <Link to="scroll">Go to scroll animation (wip)</Link>
+          </li>
+          <li>
+            <Link to="split">Go to split landing page</Link>
           </li>
         </ol>
       </section>

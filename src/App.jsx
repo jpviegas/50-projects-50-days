@@ -12,6 +12,7 @@ import {
   RotatingNavigation,
   ScrollAnimation,
 } from "./pages/projects";
+import SplitLanding from "./pages/projects/07-SplitLanding/SplitLanding";
 import Projects from "./pages/projects/Projects";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="projects/hidden" element={<HiddenSearch />} />
         <Route path="projects/blurry" element={<BlurryLoading />} />
         <Route path="projects/scroll" element={<ScrollAnimation />} />
+        <Route path="projects/split" element={<SplitLanding />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
