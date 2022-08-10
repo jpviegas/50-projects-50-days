@@ -4,6 +4,8 @@ import RotatingNavigation from "./03-RotatingNavigation/RotatingNavigation";
 import HiddenSearch from "./04-HiddenSearch/HiddenSearch";
 import BlurryLoading from "./05-BlurryLoading/BlurryLoading";
 import ScrollAnimation from "./06-ScrollAnimation/ScrollAnimation";
+import SplitLanding from "./07-SplitLanding/SplitLanding";
+import FormWave from "./08-FormWave/FormWave";
 
 export {
   ExpandingCards,
@@ -12,4 +14,6 @@ export {
   HiddenSearch,
   BlurryLoading,
   ScrollAnimation,
+  SplitLanding,
+  FormWave,
 };

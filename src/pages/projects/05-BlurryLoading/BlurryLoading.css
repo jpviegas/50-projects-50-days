@@ -10,7 +10,7 @@
 
 .blurry-bg {
   align-items: center;
-  background: url("https://picsum.photos/600") no-repeat center center/cover;
+  background: url("https://picsum.photos/1900") no-repeat center center/cover;
   display: flex;
   filter: blur(0);
   flex-direction: column;
@@ -24,4 +24,10 @@
   left: 50%;
   position: absolute;
   top: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .blurry-bg {
+    background: url("https://picsum.photos/600") no-repeat center center/cover;
+  }
 }

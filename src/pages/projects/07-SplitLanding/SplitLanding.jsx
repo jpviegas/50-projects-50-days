@@ -3,6 +3,7 @@ import Backbutton from "../../../components/layout/backbutton/Backbutton";
 import "./SplitLanding.css";
 
 function SplitLanding() {
+  document.title = "Split Landing Page";
   const leftSide = useRef(null);
   const rightSide = useRef(null);
   const container = useRef(null);
@@ -30,7 +31,12 @@ function SplitLanding() {
           onMouseLeave={mouseHoverLeftLeave}
         >
           <h1>Title 1</h1>
-          <a href="https://www.google.com" className="split-btn">
+          <a
+            href="https://picsum.photos/"
+            target="_blank"
+            className="split-btn"
+            rel="noreferrer"
+          >
             Explore
           </a>
         </div>
@@ -41,7 +47,12 @@ function SplitLanding() {
           onMouseLeave={mouseHoverRightLeave}
         >
           <h1>Title 2</h1>
-          <a href="https://www.google.com" className="split-btn">
+          <a
+            href="https://picsum.photos/"
+            target="_blank"
+            className="split-btn"
+            rel="noreferrer"
+          >
             Explore
           </a>
         </div>

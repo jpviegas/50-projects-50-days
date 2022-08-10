@@ -54,7 +54,7 @@
 }
 
 .split.split-left {
-  background: url("https://picsum.photos/500");
+  background: url("https://picsum.photos/600");
   background-repeat: no-repeat;
   background-size: cover;
   left: 0;
@@ -73,15 +73,16 @@
 }
 
 .split.split-right {
-  background: url("https://picsum.photos/501");
+  background: url("https://picsum.photos/601");
   background-repeat: no-repeat;
   background-size: cover;
   right: 0;
 }
 
+.split-left .split-btn:hover,
 .split-right .split-btn:hover {
-  background-color: var(--right-btn-hover-color);
-  border-color: var(--right-btn-hover-color);
+  background-color: var(--btn-hover-color);
+  border-color: var(--btn-hover-color);
 }
 
 .split.split-right,

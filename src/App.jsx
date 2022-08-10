@@ -7,12 +7,13 @@ import NotFound from "./pages/notfound/NotFound";
 import {
   BlurryLoading,
   ExpandingCards,
+  FormWave,
   HiddenSearch,
   ProgressSteps,
   RotatingNavigation,
   ScrollAnimation,
+  SplitLanding,
 } from "./pages/projects";
-import SplitLanding from "./pages/projects/07-SplitLanding/SplitLanding";
 import Projects from "./pages/projects/Projects";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="projects/blurry" element={<BlurryLoading />} />
         <Route path="projects/scroll" element={<ScrollAnimation />} />
         <Route path="projects/split" element={<SplitLanding />} />
+        <Route path="projects/form" element={<FormWave />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

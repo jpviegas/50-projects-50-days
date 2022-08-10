@@ -1,6 +1,5 @@
 .back-btn {
-  background-color: var(--line-border-empty);
-  border: var(--line-border-fill);
+  border: var(--line-border-empty);
   border-radius: 6px;
   border-style: solid;
   margin-bottom: 1em;

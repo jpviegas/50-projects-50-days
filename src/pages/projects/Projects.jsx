@@ -5,30 +5,33 @@ function Projects() {
   document.title = "Projects";
 
   return (
-    <main>
+    <main className="projects-page">
       <section>
         <h1>Projects</h1>
         <ol>
           <li>
-            <Link to="expanding">Go to expanding cards</Link>
+            <Link to="expanding">Go to Expanding Cards</Link>
           </li>
           <li>
-            <Link to="progress">Go to progress steps</Link>
+            <Link to="progress">Go to Progress Steps</Link>
           </li>
           <li>
-            <Link to="rotating">Go to rotating navigation</Link>
+            <Link to="rotating">Go to Rotating Navigation</Link>
           </li>
           <li>
-            <Link to="hidden">Go to hidden search widget</Link>
+            <Link to="hidden">Go to Hidden Search Widget</Link>
           </li>
           <li>
-            <Link to="blurry">Go to blurry loading</Link>
+            <Link to="blurry">Go to Blurry Loading</Link>
           </li>
           <li>
-            <Link to="scroll">Go to scroll animation (wip)</Link>
+            <Link to="scroll">Go to Scroll Animation (wip)</Link>
           </li>
           <li>
-            <Link to="split">Go to split landing page</Link>
+            <Link to="split">Go to Split Landing Page</Link>
+          </li>
+          <li>
+            <Link to="form">Go to Form Wave Animation</Link>
           </li>
         </ol>
       </section>
