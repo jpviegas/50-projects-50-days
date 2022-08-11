@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
+import { Link } from "react-router-dom";
 import Backbutton from "../../../components/layout/backbutton/Backbutton";
 import "./FormWave.css";
 
@@ -51,7 +52,7 @@ function FormWave() {
           </button>
           <p className="text">
             Don&apos;t have an account?
-            <a href="register"> Register</a>
+            <Link to="/projects"> Register</Link>
           </p>
         </form>
       </div>

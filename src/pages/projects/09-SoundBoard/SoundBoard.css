@@ -1,0 +1,31 @@
+.sound-board {
+  align-items: center;
+  background-color: rgb(161 100 223);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Poppins, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  width: 100vw;
+}
+
+.sound-btn {
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+}
+
+.sound-btn:hover {
+  opacity: 0.8;
+}
+
+.sound-btn:focus {
+  outline: none;
+}

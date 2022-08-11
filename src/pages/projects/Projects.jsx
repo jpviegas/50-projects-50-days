@@ -33,6 +33,9 @@ function Projects() {
           <li>
             <Link to="form">Go to Form Wave Animation</Link>
           </li>
+          <li>
+            <Link to="sound">Go to Sound Board</Link>
+          </li>
         </ol>
       </section>
     </main>

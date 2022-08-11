@@ -12,6 +12,7 @@ import {
   ProgressSteps,
   RotatingNavigation,
   ScrollAnimation,
+  SoundBoard,
   SplitLanding,
 } from "./pages/projects";
 import Projects from "./pages/projects/Projects";
@@ -32,6 +33,7 @@ function App() {
         <Route path="projects/scroll" element={<ScrollAnimation />} />
         <Route path="projects/split" element={<SplitLanding />} />
         <Route path="projects/form" element={<FormWave />} />
+        <Route path="projects/sound" element={<SoundBoard />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

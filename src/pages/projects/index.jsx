@@ -6,6 +6,7 @@ import BlurryLoading from "./05-BlurryLoading/BlurryLoading";
 import ScrollAnimation from "./06-ScrollAnimation/ScrollAnimation";
 import SplitLanding from "./07-SplitLanding/SplitLanding";
 import FormWave from "./08-FormWave/FormWave";
+import SoundBoard from "./09-SoundBoard/SoundBoard";
 
 export {
   ExpandingCards,
@@ -16,4 +17,5 @@ export {
   ScrollAnimation,
   SplitLanding,
   FormWave,
+  SoundBoard,
 };
