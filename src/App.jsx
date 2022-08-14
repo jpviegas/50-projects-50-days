@@ -6,6 +6,7 @@ import Home from "./pages/home/Home";
 import NotFound from "./pages/notfound/NotFound";
 import {
   BlurryLoading,
+  DadJokes,
   ExpandingCards,
   FormWave,
   HiddenSearch,
@@ -34,6 +35,7 @@ function App() {
         <Route path="projects/split" element={<SplitLanding />} />
         <Route path="projects/form" element={<FormWave />} />
         <Route path="projects/sound" element={<SoundBoard />} />
+        <Route path="projects/jokes" element={<DadJokes />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

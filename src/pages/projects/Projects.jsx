@@ -36,6 +36,9 @@ function Projects() {
           <li>
             <Link to="sound">Go to Sound Board</Link>
           </li>
+          <li>
+            <Link to="jokes">Go to Dad Jokes</Link>
+          </li>
         </ol>
       </section>
     </main>
