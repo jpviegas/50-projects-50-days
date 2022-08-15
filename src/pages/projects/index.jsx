@@ -8,6 +8,7 @@ import SplitLanding from "./07-SplitLanding/SplitLanding";
 import FormWave from "./08-FormWave/FormWave";
 import SoundBoard from "./09-SoundBoard/SoundBoard";
 import DadJokes from "./10-DadJokes/DadJokes";
+import EventKey from "./11-EventKey/EventKey";
 
 export {
   ExpandingCards,
@@ -20,4 +21,5 @@ export {
   FormWave,
   SoundBoard,
   DadJokes,
+  EventKey,
 };

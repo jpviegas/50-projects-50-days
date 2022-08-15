@@ -7,6 +7,7 @@ import NotFound from "./pages/notfound/NotFound";
 import {
   BlurryLoading,
   DadJokes,
+  EventKey,
   ExpandingCards,
   FormWave,
   HiddenSearch,
@@ -36,6 +37,7 @@ function App() {
         <Route path="projects/form" element={<FormWave />} />
         <Route path="projects/sound" element={<SoundBoard />} />
         <Route path="projects/jokes" element={<DadJokes />} />
+        <Route path="projects/event" element={<EventKey />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
