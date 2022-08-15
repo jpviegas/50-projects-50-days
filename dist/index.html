@@ -7,13 +7,17 @@
     <meta name="description" content="50 projects in 50 days" />
     <meta name="author" content="João Paulo de Barros Viegas">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    
+    <link rel="icon" type="image/svg+xml" href="/src/assets/vite.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.f786989e.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABFFJREFUWEfFl0tInFcUx39XaVAXWnxEJYqKaVFsBJ9oIT6aR5OQjUYXKgpas1J8JGIDPiBRwarddBdau9BQF0moRBA0UcRFfLRVIo1gKyKJqEgrrRBrUPOVczPKOM4480mLZzMw3/3O+d17z/mf8ylcNMMwfIBrwGdAHBAOfGh5/S9gEZgGhoF+pdTfrrhWzhYZhvEx8CWQB3g6W295/g/QA3yllPrtqHccAhiGIcGagArgAxcD2y7bBr4BGpRSAnXI7AIYhvER8CMQc8zAtq+9BLKUUr/bPjgEYBhGPDAA+P9Hwffc/AF8rpSasvZ7AMCy8+fOgu/s7NDb28vly5fx9vY2wykQn1qfxD6A5c5/cuXYW1paqK+vZ3BwkEuXLpkBkLVyHUl7OWEN0AHcdsXbkydPmJqaorGxETc3N1desV3ztVKqRv7UAJZS+/W42b69vS0+OHXqlA705s0bPDw8cHd3dwQn1fGJlOgeQCdQYmYrT58+JS0tjdevX5OQkEB1dTUVFRXk5+czMDBAQEAAXV1dXLlyxZHb75VSXyiLwq2YEBkmJycZHh7mzp07DA0NcfHiRe7evcvKygrXr1/XJ1BVVYUk69LS0v7J2JCILgQLgCjcD2Z2X1hYSGlpKenp6YyMjJCZmUlWVpb+79o1UWt49OgRubm5zMzMcO7cOUfu8wXgW6DUDEBUVBQ9PT3ExcUxOjqqQc6cOcOrV6/2k1J2HhoaysLCAhEREY7cfycAPwMJZgD8/Px4/PgxGRkZjI+Pk5qayoULF3j27Nm+G7mm4uJiXr6UqnNovwiAiIOfGYDg4GCtA2VlZUxPTxMfH6+PPzIyksrKSjw9Pbl58ybZ2dlcvXr1KNd/CsAO4LBe7L2dkpKij/fhw4fMzs4SExNDbW0tISEh9Pf3k5iYqK9HAJzY7rEAysvLdQ6sra2xuLjI2bNnaWho4N69e84C2j7XAKavoLu7m6KiIsbGxvRJyM5FFaUUTZq+ApeSUI46MDAQScC5uTmkEtrb25GSDAoKorm5mbq6OpPx0UnotAzv37+v7zQ5OVkHENmVLlhQUEBTUxOnT5+mo6OD27ddaiXWkLoMjxSiBw8esLq6Sk2N7h37Fh0drctPTsHf35/Ozk5KSkypufjSQiTDpl0p3t3dJTw8nBcvXuDr63sI4MaNG9y6dUtfS19fn5ZhE/Zeii1HarcZzc/Pc/78ea3x1vbu3Tt8fHy03CYlJWkAgYyNjTURn/fNyAIgk++hdry+vq5lVH6tW+vExIROPknMjY0NnZzyKwLkoh1sxxYIuwOJBJIGk5cnqQKy+5ycHN3tpB0LnMiwKKIJOziQWAAE/9BItrm5qVVOciAsLIzl5WU9hokaiglAa2srbW1trsa3P5JZIGQctzuUvn37FklKLy+vA4G2trZ0jhzR8azXOx5K91ad6FhuBXFyHyZWECf3aWZ9aSf2cWqb0v/X5/m/J/3OeiYQKWEAAAAASUVORK5CYII=">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAcVJREFUOE+dk7+rklEYxz8HJUzQRRcHIUFcFEHSzQZbQvHH5CTiUpecQgcFF8HJSQ0E897+CBUcAgkhJzGba3ISFxcHo676xntSee/b21DPdH48z+c8P75HoDNFUULADfAceHK+XgEfgVshxBdtiLhsFEV5DLwFXgLXcz0feA+8EUJ8V++k4zn4A/BMA2Sz2eByufRJqvtPwAsVcgHcAq+0nsvlkul0SrlcNgKoZ3dCiBtxrvmzUdrb7ZbFYoHH42E8HuP1ekmlUtckgacqoAe81j8zn8+xWCy0Wi3cbje5XI5CocBkMsFms13c36mAr4BPD2i322SzWer1OuFwmGKxSKVSodFoSPDZvqmAH8AjPaDb7eLz+RgMBjidTkKhECaTiXQ6rXX9+VfAbDZjNBpxf38vg2KxmFEzJeBBCev1muPxiMPhIJFIEIlEyGQyRKNRI4As4dpERVHodDqUSiXpnEwm8fv95PN5AoGAEUA2UZWuHONut6PX61GtVlHXzWaT0+lErVbDbrf/oXo5xrMSr0Lq9/sEg0FWqxXxeJzhcCjHZ2C/hWQk5cPhgNlsljH7/R6r1aqPfyhlDeT/PpMW/6/f+RcGur8tNOFQOQAAAABJRU5ErkJggg==">
+    <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiIiwic2hvcnRfbmFtZSI6IiIsImljb25zIjpbeyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLCJzaXplcyI6IjE5MngxOTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn0seyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dLCJ0aGVtZV9jb2xvciI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiI2ZmZmZmZiIsImRpc3BsYXkiOiJzdGFuZGFsb25lIn0=">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    
     <title>50 Projects in 50 Days</title>
-    <script type="module" crossorigin src="/assets/index.99915c3c.js"></script>
-    <link rel="stylesheet" href="/assets/index.d01f211d.css">
+    <script type="module" crossorigin src="/assets/index.388c9e1d.js"></script>
+    <link rel="stylesheet" href="/assets/index.f7b92d57.css">
   </head>
 
   <body>

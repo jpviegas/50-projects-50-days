@@ -1,4 +1,10 @@
 import { useEffect } from "react";
+import applause from "../../../assets/sounds/applause.mp3";
+import boo from "../../../assets/sounds/boo.mp3";
+import gasp from "../../../assets/sounds/gasp.mp3";
+import tada from "../../../assets/sounds/tada.mp3";
+import victory from "../../../assets/sounds/victory.mp3";
+import wrong from "../../../assets/sounds/wrong.mp3";
 import Backbutton from "../../../components/layout/backbutton/Backbutton";
 import "./SoundBoard.css";
 
@@ -31,30 +37,22 @@ function SoundBoard() {
   return (
     <main className="sound-board">
       <Backbutton />
-      <audio
-        id="applause"
-        src="../src/assets/sounds/applause.mp3"
-        type="audio/mpeg"
-      >
+      <audio id="applause" src={applause} type="audio/mpeg">
         <track kind="captions" />
       </audio>
-      <audio id="boo" src="../src/assets/sounds/boo.mp3" type="audio/mpeg">
+      <audio id="boo" src={boo} type="audio/mpeg">
         <track kind="captions" />
       </audio>
-      <audio id="gasp" src="../src/assets/sounds/gasp.mp3" type="audio/mpeg">
+      <audio id="gasp" src={gasp} type="audio/mpeg">
         <track kind="captions" />
       </audio>
-      <audio id="tada" src="../src/assets/sounds/tada.mp3" type="audio/mpeg">
+      <audio id="tada" src={tada} type="audio/mpeg">
         <track kind="captions" />
       </audio>
-      <audio
-        id="victory"
-        src="../src/assets/sounds/victory.mp3"
-        type="audio/mpeg"
-      >
+      <audio id="victory" src={victory} type="audio/mpeg">
         <track kind="captions" />
       </audio>
-      <audio id="wrong" src="../src/assets/sounds/wrong.mp3" type="audio/mpeg">
+      <audio id="wrong" src={wrong} type="audio/mpeg">
         <track kind="captions" />
       </audio>
       <div id="buttons" />

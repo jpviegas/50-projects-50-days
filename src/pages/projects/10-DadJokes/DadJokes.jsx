@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import Backbutton from "../../../components/layout/backbutton/Backbutton";
 import "./DadJokes.css";
 
 function DadJokes() {
@@ -19,6 +20,7 @@ function DadJokes() {
 
   return (
     <main className="dad-jokes">
+      <Backbutton />
       <div className="dad-jokes-container">
         <h1>Don&apos;t Laugh Challenge</h1>
         <div className="joke" id="joke" ref={jokeRef}>
