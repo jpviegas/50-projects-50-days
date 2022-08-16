@@ -33,8 +33,6 @@ function EventKey() {
         type="text"
         name="key-input"
         id="key-input"
-        value=""
-        readOnly
         onKeyDown={(e) => handleKeyPress(e)}
       />
       <div className="keycode">Press any key to get the keyCode</div>

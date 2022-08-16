@@ -42,6 +42,9 @@ function Projects() {
           <li>
             <Link to="event">Go to Event KeyCodes</Link>
           </li>
+          <li>
+            <Link to="faq">Go to FAQ Collapse</Link>
+          </li>
         </ol>
       </section>
     </main>

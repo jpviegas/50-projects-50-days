@@ -9,6 +9,7 @@ import {
   DadJokes,
   EventKey,
   ExpandingCards,
+  FAQCollapse,
   FormWave,
   HiddenSearch,
   ProgressSteps,
@@ -38,6 +39,7 @@ function App() {
         <Route path="projects/sound" element={<SoundBoard />} />
         <Route path="projects/jokes" element={<DadJokes />} />
         <Route path="projects/event" element={<EventKey />} />
+        <Route path="projects/faq" element={<FAQCollapse />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

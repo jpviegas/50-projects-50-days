@@ -9,6 +9,7 @@ import FormWave from "./08-FormWave/FormWave";
 import SoundBoard from "./09-SoundBoard/SoundBoard";
 import DadJokes from "./10-DadJokes/DadJokes";
 import EventKey from "./11-EventKey/EventKey";
+import FAQCollapse from "./12-FAQCollapse/FAQCollapse";
 
 export {
   ExpandingCards,
@@ -22,4 +23,5 @@ export {
   SoundBoard,
   DadJokes,
   EventKey,
+  FAQCollapse,
 };

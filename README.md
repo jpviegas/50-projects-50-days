@@ -52,6 +52,9 @@ npm run stylelint
   <li><a href="https://jp50projects50days.netlify.app/projects/split">Split Landing Page</a></li>
   <li><a href="https://jp50projects50days.netlify.app/projects/form">Form Wave</a></li>
   <li><a href="https://jp50projects50days.netlify.app/projects/sound">Sound Board</a></li>
+  <li><a href="https://jp50projects50days.netlify.app/projects/jokes">Dad Jokes</a></li>
+  <li><a href="https://jp50projects50days.netlify.app/projects/event">Event KeyCodes</a></li>
+  <li><a href="https://jp50projects50days.netlify.app/projects/faq">FAQ Collapse</a></li>
 </ol>
 
 
