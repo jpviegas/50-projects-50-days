@@ -1,0 +1,46 @@
+.random-choice {
+  align-items: center;
+  background-color: #2b88f0;
+  display: flex;
+  flex-direction: column;
+  font-family: Muli, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.random-container {
+  width: 500px;
+}
+
+.random-container h1 {
+  color: #fff;
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.random-container textarea {
+  border: none;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  height: 100px;
+  margin: 0 0 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.tag {
+  background-color: #f0932b;
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 5px 10px 0;
+  padding: 10px 20px;
+}
+
+.tag.highlight {
+  background-color: #273c75;
+}

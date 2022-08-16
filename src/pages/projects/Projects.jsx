@@ -45,6 +45,9 @@ function Projects() {
           <li>
             <Link to="faq">Go to FAQ Collapse</Link>
           </li>
+          <li>
+            <Link to="random">Go to Random Choices</Link>
+          </li>
         </ol>
       </section>
     </main>

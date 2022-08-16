@@ -13,6 +13,7 @@ import {
   FormWave,
   HiddenSearch,
   ProgressSteps,
+  RandomChoice,
   RotatingNavigation,
   ScrollAnimation,
   SoundBoard,
@@ -40,6 +41,7 @@ function App() {
         <Route path="projects/jokes" element={<DadJokes />} />
         <Route path="projects/event" element={<EventKey />} />
         <Route path="projects/faq" element={<FAQCollapse />} />
+        <Route path="projects/random" element={<RandomChoice />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
