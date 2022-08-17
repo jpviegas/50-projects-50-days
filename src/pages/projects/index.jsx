@@ -11,6 +11,8 @@ import DadJokes from "./10-DadJokes/DadJokes";
 import EventKey from "./11-EventKey/EventKey";
 import FAQCollapse from "./12-FAQCollapse/FAQCollapse";
 import RandomChoice from "./13-RandomChoice/RandomChoice";
+import AnimatedNavigation from "./14-AnimatedAnimation/AnimatedNavigation";
+import IncrementingCounter from "./15-IncrementingCounter/IncrementingCounter";
 
 export {
   ExpandingCards,
@@ -26,4 +28,6 @@ export {
   EventKey,
   FAQCollapse,
   RandomChoice,
+  AnimatedNavigation,
+  IncrementingCounter,
 };

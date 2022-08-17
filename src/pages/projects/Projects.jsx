@@ -48,6 +48,12 @@ function Projects() {
           <li>
             <Link to="random">Go to Random Choices</Link>
           </li>
+          <li>
+            <Link to="animated">Go to Animated Navigation</Link>
+          </li>
+          <li>
+            <Link to="incrementing">Go to Incrementing Counter</Link>
+          </li>
         </ol>
       </section>
     </main>

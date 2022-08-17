@@ -5,6 +5,7 @@ import Header from "./components/layout/header/Header";
 import Home from "./pages/home/Home";
 import NotFound from "./pages/notfound/NotFound";
 import {
+  AnimatedNavigation,
   BlurryLoading,
   DadJokes,
   EventKey,
@@ -12,6 +13,7 @@ import {
   FAQCollapse,
   FormWave,
   HiddenSearch,
+  IncrementingCounter,
   ProgressSteps,
   RandomChoice,
   RotatingNavigation,
@@ -42,6 +44,8 @@ function App() {
         <Route path="projects/event" element={<EventKey />} />
         <Route path="projects/faq" element={<FAQCollapse />} />
         <Route path="projects/random" element={<RandomChoice />} />
+        <Route path="projects/animated" element={<AnimatedNavigation />} />
+        <Route path="projects/incrementing" element={<IncrementingCounter />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
