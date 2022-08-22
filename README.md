@@ -55,6 +55,9 @@ npm run stylelint
   <li><a href="https://jp50projects50days.netlify.app/projects/jokes">Dad Jokes</a></li>
   <li><a href="https://jp50projects50days.netlify.app/projects/event">Event KeyCodes</a></li>
   <li><a href="https://jp50projects50days.netlify.app/projects/faq">FAQ Collapse</a></li>
+  <li><a href="https://jp50projects50days.netlify.app/projects/random">Random Choices</a></li>
+  <li><a href="https://jp50projects50days.netlify.app/projects/animated">Animated Navigation</a></li>
+  <li><a href="https://jp50projects50days.netlify.app/projects/incrementing">Incrementing Counter</a></li>
 </ol>
 
 
