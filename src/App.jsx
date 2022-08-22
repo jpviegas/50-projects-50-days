@@ -8,6 +8,7 @@ import {
   AnimatedNavigation,
   BlurryLoading,
   DadJokes,
+  DrinkWater,
   EventKey,
   ExpandingCards,
   FAQCollapse,
@@ -46,6 +47,7 @@ function App() {
         <Route path="projects/random" element={<RandomChoice />} />
         <Route path="projects/animated" element={<AnimatedNavigation />} />
         <Route path="projects/incrementing" element={<IncrementingCounter />} />
+        <Route path="projects/drink" element={<DrinkWater />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

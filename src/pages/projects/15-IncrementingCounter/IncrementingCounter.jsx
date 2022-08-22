@@ -4,6 +4,7 @@ import Backbutton from "../../../components/layout/backbutton/Backbutton";
 import "./IncrementingCounter.css";
 
 function IncrementingCounter() {
+  document.title = "Incrementing Counter";
   useEffect(() => {
     const counters = document.querySelectorAll(".counter");
     counters.forEach((counter) => {

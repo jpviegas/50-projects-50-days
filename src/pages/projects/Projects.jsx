@@ -54,6 +54,9 @@ function Projects() {
           <li>
             <Link to="incrementing">Go to Incrementing Counter</Link>
           </li>
+          <li>
+            <Link to="drink">Go to Drink Water</Link>
+          </li>
         </ol>
       </section>
     </main>
