@@ -15,6 +15,7 @@ import {
   FormWave,
   HiddenSearch,
   IncrementingCounter,
+  MovieApp,
   ProgressSteps,
   RandomChoice,
   RotatingNavigation,
@@ -48,6 +49,7 @@ function App() {
         <Route path="projects/animated" element={<AnimatedNavigation />} />
         <Route path="projects/incrementing" element={<IncrementingCounter />} />
         <Route path="projects/drink" element={<DrinkWater />} />
+        <Route path="projects/movie" element={<MovieApp />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

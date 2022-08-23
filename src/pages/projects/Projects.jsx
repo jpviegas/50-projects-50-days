@@ -57,6 +57,9 @@ function Projects() {
           <li>
             <Link to="drink">Go to Drink Water</Link>
           </li>
+          <li>
+            <Link to="movie">Go to Movie App</Link>
+          </li>
         </ol>
       </section>
     </main>

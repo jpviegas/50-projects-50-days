@@ -15,6 +15,8 @@
   --speed: 1000ms;
   --border-color: #144fc6;
   --fill-color: #6ab3f8;
+  --primary-color: #22254b;
+  --secondary-color: #373b69;
 }
 
 * {

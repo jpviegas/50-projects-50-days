@@ -13,6 +13,7 @@
   font-family: Muli, sans-serif;
   height: 100vh;
   justify-content: center;
+  overflow: hidden;
   width: 100vw;
 }
 
@@ -35,6 +36,7 @@
 
 .animated-navigation nav ul {
   display: flex;
+  justify-content: space-around;
   list-style: none;
   transition: width 0.6s linear;
   width: 0;
@@ -100,5 +102,9 @@
   .animated-navigation nav.animated-active {
     justify-content: space-evenly;
     width: 90vw;
+  }
+
+  .animated-navigation nav ul li:nth-child(even) {
+    display: none;
   }
 }

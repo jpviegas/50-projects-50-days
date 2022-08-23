@@ -14,6 +14,7 @@ import RandomChoice from "./13-RandomChoice/RandomChoice";
 import AnimatedNavigation from "./14-AnimatedAnimation/AnimatedNavigation";
 import IncrementingCounter from "./15-IncrementingCounter/IncrementingCounter";
 import DrinkWater from "./16-DrinkWater/DrinkWater";
+import MovieApp from "./17-MovieApp/MovieApp";
 
 export {
   ExpandingCards,
@@ -32,4 +33,5 @@ export {
   AnimatedNavigation,
   IncrementingCounter,
   DrinkWater,
+  MovieApp,
 };

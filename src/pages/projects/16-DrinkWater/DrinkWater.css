@@ -6,7 +6,9 @@
   flex-direction: column;
   font-family: Montserrat, sans-serif;
   height: 100vh;
-  overflow-x: hidden;
+
+  /* overflow-x: hidden; */
+  overflow: auto;
   width: 100vw;
 }
 

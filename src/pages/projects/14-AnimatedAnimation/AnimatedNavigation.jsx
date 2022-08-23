@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import { Link } from "react-router-dom";
 import Backbutton from "../../../components/layout/backbutton/Backbutton";
 import "./AnimatedNavigation.css";
 
@@ -17,16 +16,16 @@ function AnimatedNavigation() {
         <nav className="animated-active" id="nav" ref={animatedToggleRef}>
           <ul>
             <li>
-              <Link to="#home">Home</Link>
+              <span>Home</span>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <span>Projects</span>
             </li>
             <li>
-              <a href="#about">About</a>
+              <span>About</span>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <span>Contact</span>
             </li>
           </ul>
           <button
