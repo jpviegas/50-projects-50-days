@@ -6,7 +6,7 @@
   font-family: Roboto, sans-serif;
   height: 100vh;
   justify-content: center;
-  overflow: hidden;
+  overflow-x: hidden;
   padding: 20px;
   width: 100vw;
 }
@@ -51,4 +51,10 @@
 
 .dad-jokes-container button:focus {
   outline: 0;
+}
+
+@media only screen and (max-width: 580px) {
+  .dad-jokes {
+    display: block;
+  }
 }

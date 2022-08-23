@@ -7,7 +7,6 @@
   font-family: Muli, sans-serif;
   height: 100vh;
   justify-content: center;
-  overflow: hidden;
   width: 100vw;
 }
 
@@ -54,7 +53,7 @@
 .form-control {
   margin: 20px 0 40px;
   position: relative;
-  width: 300px;
+  width: 50vw;
 }
 
 .form-control input {
@@ -90,4 +89,10 @@
 .form-control input:valid + label span {
   color: lightblue;
   transform: translateY(-30px);
+}
+
+@media only screen and (max-width: 580px) {
+  .form-control {
+    width: 90vw;
+  }
 }

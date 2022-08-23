@@ -35,7 +35,7 @@ function DrinkWater() {
         smallCups[idx].classList.contains("full") &&
         !smallCups[idx].nextElementSibling.classList.contains("full")
       ) {
-        idx - 1;
+        idx--;
       }
       smallCups.forEach((cup, idx2) => {
         if (idx2 <= idx) {
@@ -58,7 +58,7 @@ function DrinkWater() {
       <Backbutton />
       <h1>Drink Water</h1>
       <h2>Goal: 2 liters</h2>
-      <div className="cup">
+      <div className="cup cup-big">
         <div className="remained" id="remained">
           <span id="liters" />
           <small>Remained</small>

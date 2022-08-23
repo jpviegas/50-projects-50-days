@@ -6,7 +6,7 @@
   font-family: Poppins, sans-serif;
   height: 100vh;
   justify-content: center;
-  overflow: hidden;
+  overflow-x: hidden;
   text-align: center;
   width: 100vw;
 }
@@ -28,4 +28,10 @@
 
 .sound-btn:focus {
   outline: none;
+}
+
+@media only screen and (max-width: 580px) {
+  .sound-board {
+    display: block;
+  }
 }

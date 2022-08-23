@@ -17,10 +17,10 @@ function AnimatedNavigation() {
         <nav className="animated-active" id="nav" ref={animatedToggleRef}>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="#home">Home</Link>
             </li>
             <li>
-              <a href="/projetcs">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
               <a href="#about">About</a>

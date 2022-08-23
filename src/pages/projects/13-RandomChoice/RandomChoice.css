@@ -11,7 +11,7 @@
 }
 
 .random-container {
-  width: 500px;
+  width: 50vw;
 }
 
 .random-container h1 {
@@ -43,4 +43,10 @@
 
 .tag.highlight {
   background-color: #273c75;
+}
+
+@media only screen and (max-width: 580px) {
+  .random-container {
+    width: 90vw;
+  }
 }

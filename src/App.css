@@ -27,9 +27,11 @@
   display: flex;
   flex-direction: column;
   font-family: Muli, sans-serif;
-  height: 100vh;
   justify-content: space-between;
+  max-height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
+  position: relative;
   width: 100vw;
 }
 

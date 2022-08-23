@@ -5,7 +5,8 @@
   display: flex;
   flex-direction: column;
   font-family: Montserrat, sans-serif;
-  height: 100%;
+  height: 100vh;
+  overflow-x: hidden;
   width: 100vw;
 }
 
@@ -30,6 +31,10 @@
   width: 150px;
 }
 
+.cup-big {
+  min-height: 330px;
+}
+
 .cup.cup-small {
   align-items: center;
   background-color: rgb(255 255 255 / 90%);
@@ -39,6 +44,7 @@
   height: 95px;
   justify-content: center;
   margin: 5px;
+  max-height: 95px;
   text-align: center;
   transition: 0.3 ease;
   width: 50px;

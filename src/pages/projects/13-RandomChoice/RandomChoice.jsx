@@ -66,7 +66,7 @@ function RandomChoice() {
     <main className="random-choice">
       <Backbutton />
       <div className="random-container">
-        <h1>Enter all of the choices divided by a comma (&apos;,&apos;).</h1>
+        <h1>Enter all of the choices divided by a comma (&apos;,&apos;)</h1>
         <h2>Press enter when you&apos;re done</h2>
         <textarea
           name=""

@@ -30,7 +30,7 @@
 
 .animated-navigation nav.animated-active {
   justify-content: space-between;
-  width: 450px;
+  width: 50vw;
 }
 
 .animated-navigation nav ul {
@@ -94,4 +94,11 @@
 
 .animated-navigation nav.animated-active .animated-icon .line2 {
   transform: rotate(765deg) translateY(-5.5px);
+}
+
+@media only screen and (max-width: 580px) {
+  .animated-navigation nav.animated-active {
+    justify-content: space-evenly;
+    width: 90vw;
+  }
 }

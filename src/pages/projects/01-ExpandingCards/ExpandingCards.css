@@ -1,3 +1,7 @@
+.expanding-container {
+  overflow-x: hidden;
+}
+
 .expanding {
   display: flex;
   width: 100vw;
@@ -45,11 +49,6 @@
 }
 
 @media only screen and (max-width: 580px) {
-  .expanding-container {
-    height: 90vh;
-    width: 100vw;
-  }
-
   .expanding-title {
     flex-direction: column;
   }

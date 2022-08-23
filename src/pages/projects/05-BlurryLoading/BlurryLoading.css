@@ -21,7 +21,7 @@
 .blurry-loading-text {
   color: #000;
   font-size: 50px;
-  left: 50%;
+  margin: 0 50%;
   position: absolute;
   top: 50%;
 }

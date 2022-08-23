@@ -2,6 +2,7 @@
   background-color: #f0f0f0f0;
   font-family: Muli, sans-serif;
   height: 100vh;
+  overflow-x: hidden;
   width: 100vw;
 }
 
@@ -23,7 +24,7 @@
   overflow: hidden;
   padding: 30px;
   position: relative;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
 }
 
 .faq:hover {
@@ -73,8 +74,6 @@
   background-color: transparent;
   border: 0;
   border-radius: 50%;
-
-  /* cursor: pointer; */
   display: flex;
   font-size: 16px;
   height: 30px;
