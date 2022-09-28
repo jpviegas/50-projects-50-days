@@ -6,6 +6,7 @@ import Home from "./pages/home/Home";
 import NotFound from "./pages/notfound/NotFound";
 import {
   AnimatedNavigation,
+  BackgroundSlider,
   BlurryLoading,
   DadJokes,
   DrinkWater,
@@ -40,16 +41,17 @@ function App() {
         <Route path="projects/blurry" element={<BlurryLoading />} />
         <Route path="projects/scroll" element={<ScrollAnimation />} />
         <Route path="projects/split" element={<SplitLanding />} />
-        <Route path="projects/form" element={<FormWave />} />
-        <Route path="projects/sound" element={<SoundBoard />} />
-        <Route path="projects/jokes" element={<DadJokes />} />
-        <Route path="projects/event" element={<EventKey />} />
+        <Route path="projects/formwave" element={<FormWave />} />
+        <Route path="projects/soundboard" element={<SoundBoard />} />
+        <Route path="projects/dadjokes" element={<DadJokes />} />
+        <Route path="projects/eventkey" element={<EventKey />} />
         <Route path="projects/faq" element={<FAQCollapse />} />
         <Route path="projects/random" element={<RandomChoice />} />
         <Route path="projects/animated" element={<AnimatedNavigation />} />
         <Route path="projects/incrementing" element={<IncrementingCounter />} />
-        <Route path="projects/drink" element={<DrinkWater />} />
-        <Route path="projects/movie" element={<MovieApp />} />
+        <Route path="projects/drinkwater" element={<DrinkWater />} />
+        <Route path="projects/movieapp" element={<MovieApp />} />
+        <Route path="projects/bgslider" element={<BackgroundSlider />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

@@ -7,33 +7,33 @@ function MovieApp() {
   document.title = "Movie App";
   const [movieArray, setMovieArray] = useState([]);
   useEffect(() => {
-    // const API_URL =
-    //   "https://api.themoviedb.org/3/movie/550?api_key=5365ea7018ab8a751c09121b15d4388c";
     const API_URL =
       "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=5365ea7018ab8a751c09121b15d4388c&page=1";
     const SEARCH_URL =
       'https://api.themoviedb.org/3/search/movie?api_key=5365ea7018ab8a751c09121b15d4388c&query=""';
+
     async function getMovies(url) {
       const res = await fetch(url);
       const data = await res.json();
       setMovieArray(data.results);
     }
+
     getMovies(API_URL);
+
     const form = document.getElementById("movie-form");
     const search = document.getElementById("search");
+
     form.addEventListener("submit", (e) => {
       e.preventDefault();
       const searchTerm = search.value;
 
       if (searchTerm && searchTerm !== "") {
         getMovies(SEARCH_URL + searchTerm);
-        // search.value = "";
       } else {
         window.location.reload();
       }
     });
   }, []);
-  console.log(movieArray);
 
   return (
     <main className="movie-app">
@@ -45,7 +45,6 @@ function MovieApp() {
             id="search"
             className="movie-search"
             placeholder="Search"
-            // onChange={}
           />
         </form>
       </div>
@@ -60,7 +59,7 @@ function MovieApp() {
               vote={movie.vote_average}
               release={movie.release_date}
               overview={movie.overview}
-              img={`${IMG_PATH}${movie.poster_path}`}
+              img={`${IMG_PATH + movie.poster_path}`}
             />
           );
         })}

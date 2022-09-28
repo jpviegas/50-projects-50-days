@@ -31,16 +31,16 @@ function Projects() {
             <Link to="split">Go to Split Landing Page</Link>
           </li>
           <li>
-            <Link to="form">Go to Form Wave Animation</Link>
+            <Link to="formwave">Go to Form Wave Animation</Link>
           </li>
           <li>
-            <Link to="sound">Go to Sound Board</Link>
+            <Link to="soundboard">Go to Sound Board</Link>
           </li>
           <li>
-            <Link to="jokes">Go to Dad Jokes</Link>
+            <Link to="dadjokes">Go to Dad Jokes</Link>
           </li>
           <li>
-            <Link to="event">Go to Event KeyCodes</Link>
+            <Link to="eventkey">Go to Event KeyCodes</Link>
           </li>
           <li>
             <Link to="faq">Go to FAQ Collapse</Link>
@@ -55,10 +55,13 @@ function Projects() {
             <Link to="incrementing">Go to Incrementing Counter</Link>
           </li>
           <li>
-            <Link to="drink">Go to Drink Water</Link>
+            <Link to="drinkwater">Go to Drink Water</Link>
           </li>
           <li>
-            <Link to="movie">Go to Movie App</Link>
+            <Link to="movieapp">Go to Movie App</Link>
+          </li>
+          <li>
+            <Link to="bgslider">Go to Background Slider</Link>
           </li>
         </ol>
       </section>

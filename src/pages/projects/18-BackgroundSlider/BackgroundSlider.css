@@ -1,0 +1,10 @@
+.background-slider {
+  align-items: center;
+  background-image: url("https://picsum.photos/id/500");
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}

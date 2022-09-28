@@ -15,6 +15,7 @@ import AnimatedNavigation from "./14-AnimatedAnimation/AnimatedNavigation";
 import IncrementingCounter from "./15-IncrementingCounter/IncrementingCounter";
 import DrinkWater from "./16-DrinkWater/DrinkWater";
 import MovieApp from "./17-MovieApp/MovieApp";
+import BackgroundSlider from "./18-BackgroundSlider/BackgroundSlider";
 
 export {
   ExpandingCards,
@@ -34,4 +35,5 @@ export {
   IncrementingCounter,
   DrinkWater,
   MovieApp,
+  BackgroundSlider,
 };
