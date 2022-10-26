@@ -1,64 +1,52 @@
-# 50 Projects in 50 Days - HTML/CSS/JavaScript/React
+# Bem vindo ao projeto `50 Projects in 50 Days`
 
 "50 Projects in 50 Days" é um projeto que engloba variados pequenos projetos/páginas/efeitos.
 
-Tem como objetivo exercitar constantemente a base de html e css.
+Tem como objetivo exercitar constantemente a base de html, css e javascript.
 
-Deploy do projeto: https://jp50projects50days.netlify.app/
+:link: Deploy do projeto: https://jp50projects50days.netlify.app/
+
+## :jigsaw: Tecnologias utilizadas
+
+- HTML
+- CSS
+- JavaScript
+- React
 
 ## Instalação
 
-Abra o terminal:
+:computer: **Abra o terminal:**
 
-Clone o projeto:
+1. Clone o projeto:
 ```bash
 git clone git@github.com:jpviegas/50-projects-50-days.git
 ```
-Navegue até a pasta do projeto:
+2. Navegue até a pasta do projeto:
 ```bash
 cd 50-projects-50-days
 ```
 
-Use o gerenciador de pacotes [npm](https://www.npmjs.com/) para instalar os requisitos.
+3. Use o gerenciador de pacotes [npm](https://www.npmjs.com/) para instalar os requisitos.
 
 ```bash
 npm install
 ```
 
-## Como usar
+## Como utilizar
 
-// iniciar modo desenvolvimento
+:white_check_mark: Iniciar localmente.
 ```bash
 npm run dev
 ```
-// Linter
+:cop: Linter: para maior qualidade do código, foi utilizado [`prettier`](https://prettier.io/), [`eslint`](https://eslint.org/) e [`stylelint`](https://stylelint.io/).
 
-eslint
+*eslint*
 ```bash
 npm run eslint
 ```
-stylelint
+*stylelint*
 ```bash
 npm run stylelint
 ```
 
-<ol>
-  <li><a href="https://jp50projects50days.netlify.app/projects/expanding">Expanding Cards</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/progress">Progress Steps</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/rotating">Rotating Navigation Animation</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/hidden">Hidden Search Widget</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/blurry">Blurry Loading</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/scroll">Scroll Animation</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/split">Split Landing Page</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/form">Form Wave</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/sound">Sound Board</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/jokes">Dad Jokes</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/event">Event KeyCodes</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/faq">FAQ Collapse</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/random">Random Choices</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/animated">Animated Navigation</a></li>
-  <li><a href="https://jp50projects50days.netlify.app/projects/incrementing">Incrementing Counter</a></li>
-</ol>
-
-
-este projeto é totalmente baseado no [Brad Traversy](https://github.com/bradtraversy/50projects50days)
+Este projeto é totalmente baseado no [Brad Traversy](https://github.com/bradtraversy/50projects50days).

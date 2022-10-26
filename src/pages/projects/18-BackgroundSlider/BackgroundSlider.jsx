@@ -3,6 +3,7 @@ import Backbutton from "../../../components/layout/backbutton/Backbutton";
 import "./BackgroundSlider.css";
 
 function BackgroundSlider() {
+  document.title = "Background Slider";
   useEffect(() => {
     const bgMain = document.querySelector(".background-slider");
     const slides = document.querySelectorAll(".slide");
@@ -50,15 +51,15 @@ function BackgroundSlider() {
       <div className="slider-container">
         <div
           className="slide active"
-          style={{ backgroundImage: "url('https://picsum.photos/id/500')" }}
-        />
-        <div
-          className="slide"
-          style={{ backgroundImage: "url('https://picsum.photos/600')" }}
-        />
-        <div
-          className="slide"
           style={{ backgroundImage: "url('https://picsum.photos/700')" }}
+        />
+        <div
+          className="slide"
+          style={{ backgroundImage: "url('https://picsum.photos/800')" }}
+        />
+        <div
+          className="slide"
+          style={{ backgroundImage: "url('https://picsum.photos/900')" }}
         />
         <button type="button" className="arrow left-arrow" id="left">
           <i className="fas fa-arrow-left" />
